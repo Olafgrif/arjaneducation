@@ -7,6 +7,12 @@ public class Persoon {
         this.naam = naam;
         this.hoogte = hoogte;
     }
+
+    public Persoon(int hoogte) {
+        //this.naam = "anoniem";
+        this.hoogte = hoogte;
+    }
+
     
     public String getNaam() {
         return this.naam;
